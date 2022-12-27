@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Customer = void 0;
 class Customer {
     constructor(first, last) {
         this.first = first;
@@ -17,6 +19,7 @@ class Customer {
         this.last = theLast;
     }
 }
+exports.Customer = Customer;
 let myCustomer = new Customer("Matthew", "Guizar");
 myCustomer.firstName = "Matte";
 console.log(myCustomer);

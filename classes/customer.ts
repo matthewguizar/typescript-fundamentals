@@ -1,4 +1,4 @@
-class Customer {
+export class Customer {
 
     constructor(private first: String, private last: String){
     }
