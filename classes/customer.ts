@@ -1,10 +1,6 @@
 class Customer {
-    private first: String;
-    private last: String;
 
-    constructor(theFirst: String, theLast: String){
-        this.first = theFirst;
-        this.last = theLast
+    constructor(private first: String, private last: String){
     }
 
     get firstName(): String {
