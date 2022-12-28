@@ -1,4 +1,4 @@
-export class Shape {
+export abstract class Shape {
 
     //defines and assigns at the same time
     constructor(private _x: number, private _y: number) {
@@ -24,4 +24,6 @@ export class Shape {
     public getInfo(): string {
         return `x=${this.x}, y=${this._y}`;
     }
+
+    abstract calculateArea(): number;
 }

@@ -1,6 +1,9 @@
 import { Shape } from "./Shape";
 
 export class Rectangle extends Shape {
+    calculateArea(): number {
+        return this._width * this._length;
+    }
 
 
     constructor(x: number, y: number, private _width: number, private _length: number){

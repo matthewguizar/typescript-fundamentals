@@ -25,6 +25,9 @@ var Rectangle = /** @class */ (function (_super) {
         _this._length = _length;
         return _this;
     }
+    Rectangle.prototype.calculateArea = function () {
+        return this._width * this._length;
+    };
     Object.defineProperty(Rectangle.prototype, "width", {
         get: function () {
             return this._width;
